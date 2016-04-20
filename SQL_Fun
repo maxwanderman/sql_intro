@@ -1,0 +1,10 @@
+1. SELECT username FROM syntax_practice WHERE ("city = Chicago");
+2. SELECT username FROM syntax_practice WHERE username LIKE ("%a");
+3. UPDATE account_balance SET 10.00 WHERE ("account_balance = 0") AND ("transaction_history = 0");
+4. SELECT username FROM syntax_practice WHERE ("transactions_attempted >= 9");
+5. SELECT username FROM syntax_practice WHERE ("account_balance > 350") [LIMIT { 3 | ALL }]
+6.SELECT username FROM syntax_practice WHERE ("account_balance < 350") [LIMIT { 3 | ALL }]
+7. SELECT username FROM syntax_practice WHERE account_balance >= 100;
+8. INSERT INTO syntax_practice ("username", "city", "transactions_completed", "transactions_attempted",
+"account_balance", "user_id") Values("Steve", "Canton", "8", "16", "65.00", "9");
+9. DELETE username FROM syntax_practice WHERE (("city = Miami") OR ("city = Phoenix")) AND ("transaction_complete <= 5");
